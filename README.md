@@ -3,6 +3,9 @@
 This repository contains descriptions, examples, and asymptotic complexities for
 a variety of useful data structures in computer science.
 
+The following abstract data types are currently described:
+ - [List](./list.md)
+
 ## Project Status and Contributions
 This repository is a work-in-progress.
 
