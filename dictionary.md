@@ -20,8 +20,8 @@ For a dictionary with keys of type K and values of type V:
 | delete   | K ➝ ()         | Remove the item associated with the given key    |
 
 ## Performance
-Note that n is the number of items in the stack.
-With a list-based implementation:
+Note that n is the number of (key, value) pairs in the dictionary.
+With a hash map-based implementation:
 
 | Name            | Average Complexity |
 | --------------- | ------------------ |
