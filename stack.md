@@ -19,8 +19,8 @@ For a stack containing items of type T:
 | pop      | () ➝ ()        | Remove the item at the top of the stack          |
 
 ## Performance
-Note that n is the number of items in the list.
-With an array implementation:
+Note that n is the number of items in the stack.
+With a list-based implementation:
 
 | Name            | Average Complexity |
 | --------------- | ------------------ |
