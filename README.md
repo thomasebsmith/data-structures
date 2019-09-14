@@ -6,6 +6,7 @@ a variety of useful data structures in computer science.
 The following abstract data types are currently included:
  - [Dictionary](./dictionary.md)
  - [List](./list.md)
+ - [Priority Queue](./priorityQueue.md)
  - [Queue](./queue.md)
  - [Stack](./stack.md)
 
