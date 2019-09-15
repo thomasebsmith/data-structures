@@ -11,17 +11,15 @@ linked lists (e.g. `std::list` in C++). In almost all use cases, arrays are much
 more efficient.
 
 ## Interface
-For a list containing items of type T:
+For a list containing items of type T with iterators of type I:
 
 | Name     | Type           | Description                                      |
 | -------- | -------------- | -----------------------------------------------  |
 | size     | Size           | The number of items contained in the list        |
 | append   | T ➝ ()         | Insert an item at the end of the list            |
-| insert   | I{T} ➝ T ➝ ()  | Insert an item before a given index in the list  |
-| erase    | I{T} ➝ ()      | Erase the item pointed to by an iterator         |
-| get      | Size ➝ I{T}    | Get an iterator to the value at a given index    |
-
-Note that I{T} is an iterator for items of type T.
+| insert   | I ➝ T ➝ ()     | Insert an item before a given index in the list  |
+| erase    | I ➝ ()         | Erase the item pointed to by an iterator         |
+| get      | Size ➝ I       | Get an iterator to the value at a given index    |
 
 ## Performance
 Note that n is the number of items in the list.
