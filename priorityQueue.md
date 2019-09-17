@@ -6,7 +6,8 @@ each with an associated priority. It allows addition of items and removal of the
 item with the highest priority.
 
 ## Implementations
-Priority queues are commonly implemented using binary heaps.
+Priority queues are commonly implemented using binary heaps (e.g. with
+the `std::..._heap` family of functions in C++).
 
 ## Interface
 For a priority queue with items of type T and priorities of type P:
