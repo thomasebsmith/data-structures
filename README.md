@@ -14,6 +14,7 @@ The following ADTs are currently included:
 ## Project Status and Contributions
 If you have an ADT you would like to add, submit a pull request with a completed
 Markdown file for the data structure. See existing data structures for examples.
+Do not attempt to be too comprehensive — add only relevant information.
 
 ## License
 The entire contents of this repository have been released into the public
