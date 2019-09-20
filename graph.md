@@ -2,7 +2,8 @@
 
 ## Description
 A **graph** is an abstract data type that stores a set of possibly connected
-vertices.
+vertices. Each vertex can have an associated value. Sometimes, edges have
+associated values as well, but that case is not included in this description.
 
 ## Implementations
 Graphs are commonly implemented using adjacency lists or adjacency matrices.
