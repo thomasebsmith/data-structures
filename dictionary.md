@@ -3,6 +3,7 @@
 ## Description
 A **dictionary** is an abstract data type that stores a collection of
 (key, value) pairs such that a given value can be accessed by its key.
+Dictionaries are also known as maps.
 
 ## Implementations
 Dictionaries are commonly implemented using hash maps (e.g. `std::unordered_map`
