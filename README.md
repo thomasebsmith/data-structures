@@ -19,3 +19,10 @@ Do not attempt to be too comprehensive — add only relevant information.
 ## License
 The entire contents of this repository have been released into the public
 domain. See [here](./LICENSE) for complete license text.
+
+## Technical Notes
+- "Average Complexity" is actually amortized average-case complexity given
+  randomized data.
+- Although this repository is called "Data Structures," it focused on abstract
+  data types instead, relying on their underlying data structures only for
+  efficiency measures.
